@@ -1,0 +1,82 @@
+html, body, #root, .App{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+	justify-items: center;
+  align-items: center;
+	background-color: #dfdfdf;
+}
+
+.Header, .Footer{
+  width: 90%;
+  color: gray;
+}
+
+#contenedor{
+  width: 90%;
+  height: 100%;
+}
+
+#welcome-message{
+  color: gray;
+}
+
+.Footer{
+  background-color: rgb(211, 210, 210);
+  border-radius: 1em;
+}
+
+#Gapsi-Welcome{
+  border: solid;
+  border-color: rgb(82, 163, 255);
+  border-radius: 13em;
+  width: 130px;
+  height: 130px;
+}
+
+.boton{
+  background-color: rgb(82, 163, 255);
+  width: 140px;
+  height: 50px;
+  color: whitesmoke;
+}
+
+#version{
+  padding-right: 2em;
+}
+
+#table-proveedores{
+  width: 90%;
+}
+
+#agregarProveedor{
+  height: 50px;
+}
+
+#header-tablero{
+  font-size: 28px;
+  color: rgb(82, 163, 255);
+}
+
+#imagenEliminar{
+  width: 35px;
+  height: 35px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
